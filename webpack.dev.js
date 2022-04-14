@@ -28,10 +28,12 @@ module.exports = merge(common, {
   },
   devtool: 'inline-source-map',
   devServer: {
-    contentBase: './dist',
-    historyApiFallback: true,
-    hot: true,
+    // contentBase
+    static: {
+      directory: './dist',
+    },
     port: 3000,
-    proxy: {},
+    // hotOnly
+    hot: 'only',
   },
 });
