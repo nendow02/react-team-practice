@@ -6,7 +6,10 @@ export default function Extra2(): JSX.Element {
   return (
     <div id="extra2">
       <p>Nathan :)</p>
-      <CustomButton text={"Count: " + String(count)} onClick={() => setCount(count => count + 1)} />
+      <CustomButton
+        text={'Count: ' + String(count)}
+        onClick={() => setCount(count + 1)}
+      />
     </div>
   );
 }
