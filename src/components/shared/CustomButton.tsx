@@ -1,7 +1,7 @@
 import '../../styles/customButton.scss';
 interface customButtonProps {
   text: string;
-  onClick: ()=>void;
+  onClick: () => void;
 }
 
 export default function CustomButton(props: customButtonProps): JSX.Element {
