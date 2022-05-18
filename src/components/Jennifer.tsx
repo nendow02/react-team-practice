@@ -3,11 +3,11 @@ import { useState } from 'react';
 import CustomButton from './shared/CustomButton';
 import CustomJennifer from './shared/CustomJennifer';
 export default function Jennifer(): JSX.Element {
-  function handleChange(input: boolean)
-  {
-    if(input) console.log('check');
-    else console.log(':(');
-  }
+  // function handleChange(input: boolean)
+  // {
+  //   if(input) console.log('check');
+  //   else console.log(':(');
+  // }
 
 
   const [number, setNumber] = useState(0);
@@ -31,7 +31,7 @@ export default function Jennifer(): JSX.Element {
       <div>
         {food.map( (fd) => <div key={fd}> {fd}! </div>)}
       </div>
-      <CustomButton text={number.toString()} onClick={() => 
+      <CustomButton text={number.toString()} onClick={() =>
         {number < 100? setNumber(number + 1): setNumber(number - 1);}}  /> click
       <CustomJennifer text={dsply} onClick={() => {setDisply('ooh typing');}}/>
 
