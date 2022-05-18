@@ -1,5 +1,17 @@
+a {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 200;
+}
+
 #jennifer {
   background-color: lightseagreen;
+  line-height: 5px;
   //Delete this line and add more properties here!
+}
+
+#message {
+  color: antiquewhite;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
 }
 //properties for other classes/ids can be declared here!
