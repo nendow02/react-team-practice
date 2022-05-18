@@ -1,5 +1,31 @@
 #daniel {
   background-color: lightgoldenrodyellow;
   //Delete this line and add more properties here!
+  h1 {
+    color: blue;
+  }
+
+  p {
+    color: magenta;
+    font-size: 10px;
+  }
+
+  #myCheckbox {
+    background-color: blueviolet;
+    font-style: italic;
+  }
+
+  #custom {
+    background-color: white;
+    border: 2px solid green;
+    border-radius: 0%;
+    color: black;
+    transition-duration: 0.5s;
+  }
+
+  #custom:hover {
+    background-color: green;
+    color: white;
+  }
 }
 //properties for other classes/ids can be declared here!
