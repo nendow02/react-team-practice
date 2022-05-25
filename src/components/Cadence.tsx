@@ -7,7 +7,7 @@ function handleChange(myBool : boolean)
   console.log(myBool);
 }
 const [number, setNumber] = useState(0);
-const [my_string, setMy_String] = useState("Type something.");
+const [my_string, setMy_String] = useState('Type something.');
   return (
     <div id="cadence">
       <p>cadence</p>
@@ -15,14 +15,14 @@ const [my_string, setMy_String] = useState("Type something.");
       <div id = "checkbox">
       <input
       type = "checkbox"
-      onChange={function (e) {handleChange(e.target.checked)}}
+      onChange={function (e) {handleChange(e.target.checked);}}
       />
       I am in ACM TeachLA!
       <CustomButton text = {number.toString()} onClick = {() => setNumber(number + 1) }/>
       </div>
       <input
-      type = "text" 
-      onChange = {function (e) {setMy_String(e.target.value)}}
+      type = "text"
+      onChange = {function (e) {setMy_String(e.target.value);}}
       />
       <p>
         {my_string}
