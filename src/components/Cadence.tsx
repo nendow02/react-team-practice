@@ -4,7 +4,9 @@ import CustomButton from './shared/CustomButton';
 export default function Cadence(): JSX.Element {
 function handleChange(myBool : boolean)
 {
+  /* eslint-disable */
   console.log(myBool);
+  /* eslint-enable */
 }
 const [number, setNumber] = useState(0);
 const [my_string, setMy_String] = useState('Type something.');
