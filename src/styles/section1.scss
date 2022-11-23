@@ -1,20 +1,19 @@
 #section1 {
+  align-items: center;
   background-color: rgb(110, 255, 163);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: center;
 }
 
-
 .text {
+  color: white;
   font-size: 20px;
   font-weight: 200;
-  color: white;
 }
 
 #title {
-  font-size: 50px;
-  color:rgb(255, 76, 192);
   border: thick solid white;
+  color: rgb(255, 76, 192);
+  font-size: 50px;
 }
