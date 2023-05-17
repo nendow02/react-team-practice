@@ -3,7 +3,8 @@ export default function Section4(): JSX.Element {
   return (
     // You will be coding here!
     <div id="section4">
-      <p>section 4</p>
+      <h1>Tiffany</h1>
+      <p>About Me</p>
     </div>
   );
 }
