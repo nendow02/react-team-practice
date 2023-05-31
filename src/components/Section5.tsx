@@ -1,17 +1,17 @@
 import '../styles/section5.scss';
+import dog from '/Users/natalielord/react-team-practice-s23/src/components/dog.jpeg';
 export default function Section5(): JSX.Element {
   return (
     // You will be coding here!
-    <div id="section5">
+    <div className="section5">
       <h1>Natalie</h1>
-      <p>About me:</p>
-      <ol>
+      <p id = "test">About me:</p>
+      <ol className ="test2">
         <li> I'm from Florida. </li>
-        <li> I'm a computer science major.</li>
         <li> I love matcha! </li>
         <li> I have run a half marathon</li>
       </ol>
-      <img src="https://media.istockphoto.com/id/814013890/vector/matcha-green-tea-latte-cappuccino-drink-top-view.jpg?s=612x612&w=0&k=20&c=0nAGHAduZGIYQqGaDJmbZRfIKwz6BpyCFCo4sKOgJT0=" height="200" width="200"/>
+      <img src={dog} height="400px"/>
     </div>
   );
 }
